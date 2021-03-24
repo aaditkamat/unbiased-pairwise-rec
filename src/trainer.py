@@ -8,7 +8,8 @@ from typing import Tuple
 
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+# Fix Attribute Error: https://stackoverflow.com/questions/60507577/module-tensorflow-has-no-attribute-session
+import tensorflow.compat.v1 as tf
 from scipy import sparse
 from tensorflow.python.framework import ops
 
