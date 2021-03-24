@@ -22,7 +22,7 @@ python preprocess_datasets.py -d coat yahoo
 # Run real world experiments in section 4 of Saito paper
 for data in yahoo coat
   do
-  for model in wmf expomf crmf bpr ubpr
+  for model in wmf expomf relmf bpr ubpr
   do
     python main.py -m $model -d $data -r 10
   done
