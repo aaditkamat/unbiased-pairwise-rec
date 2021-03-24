@@ -1,6 +1,3 @@
-# Change directory to repository root
-cd unbiased-pairwise-rec/
-
 # Set up datasets
 
 # Coat
